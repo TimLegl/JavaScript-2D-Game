@@ -4,6 +4,33 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: 'Bangers';
+  font-size: 3rem;
+  text-align: center;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-family: 'Bangers';
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Bangers';
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
 #canvas1 {
   border: 5px solid black;
   position: absolute;
@@ -15,6 +42,8 @@
   max-height: 100%;
   font-family: 'Bangers', cursive;
 }
+
+
 
 /* Hintergründe ausblenden (Sollen nur mit JS eingeblendet werden) */
 #layer1, #layer2, #layer3, #layer4, #player, #angler1, #angler2, #lucky, #projectile, #gears, #hivewhale, #drone, #smokeExplosion, #fireExplosion  {
