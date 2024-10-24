@@ -16,7 +16,7 @@ h1 {
   align-items: flex-start;
   margin: 0 auto;
   width: 1000px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 h2 {
@@ -42,8 +42,6 @@ h3 {
   max-height: 100%;
   font-family: 'Bangers', cursive;
 }
-
-
 
 /* Hintergründe ausblenden (Sollen nur mit JS eingeblendet werden) */
 #layer1, #layer2, #layer3, #layer4, #player, #angler1, #angler2, #lucky, #projectile, #gears, #hivewhale, #drone, #smokeExplosion, #fireExplosion  {
